@@ -1,0 +1,52 @@
+body {
+  background-color: seashell; }
+  body div {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+    body div h3 {
+      font-style: italic; }
+    body div ol li {
+      color: darkred; }
+    body div ul li {
+      color: darkred; }
+    body div p {
+      color: black; }
+    body div p::selection {
+      background-color: darkred; }
+    body div a {
+      color: darkred; }
+
+table, .probes, #clast {
+  border: 2px solid darkred; }
+
+#clast {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+td, th {
+  border: 1px solid darkred; }
+
+td {
+  background-color: lightgoldenrodyellow; }
+
+th {
+  background-color: lightslategrey; }
+
+body {
+  padding: 20px;
+  padding-top: 10px; }
+
+h1 {
+  text-align: center; }
+
+.classlinks:hover {
+  background-color: darksalmon; }
+
+@media (min-width: 700px) {
+  p, ul, ol, a {
+    font-size: 14px; } }
+@media (max-width: 699) {
+  p, ul, ol, a {
+    font-size: medium; } }
+
+/*# sourceMappingURL=master.css.map */
